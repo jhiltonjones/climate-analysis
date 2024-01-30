@@ -1,4 +1,4 @@
-""" Climate Analysis Tools"""
+""" Climate Analysis Tools Example"""
 import sys
 import temp_conversion
 import signal
