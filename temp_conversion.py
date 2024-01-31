@@ -1,10 +1,19 @@
 # Todo: Code is a bit unclear
 
-def Fc(x):
-    Y = (x - 32) * (5 / 9)
-    return Y
+def convert_fahr_to_celsius(fahr):
+    """
+    Arguements§
+        fahr:Temperature in fahrenheit
+    """
+    
+    celsius = (fahr - 32) * (5 / 9)
+    return celsius
 
-def FK(x):
-    y = Fc(x)
-    z = y + 273.15
-    return z
+def convery_fahr_to_kelvin(fahr):
+    """
+    Arguements
+        fahr:Temperature in fahrenheit
+    """
+    celsius = convert_fahr_to_celsius(fahr)
+    kelvin = celsius + 273.15
+    return kelvin
